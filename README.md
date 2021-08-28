@@ -44,3 +44,11 @@ Which will allow you to pass object parameter instead on passing as single value
 ### ArgsType:
 
 Which will do the same things.but it will give GraphQL a list as args.
+
+### Class Validator & Class Transformer
+
+Allows use of decorator and non-decorator based validation. Internally uses validator.js to perform validation. Class-validator works on both browser and node.js platforms.
+b
+
+To configure add in main file
+app.useGlobalPipes(new ValidationPipe());
