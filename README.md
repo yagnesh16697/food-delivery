@@ -2,7 +2,7 @@
 
 Food delivery app in NestJS, React JS, GraphQL.
 
-### Notes
+## Notes
 
 Doing this
 (const server = new ApolloServer({
@@ -13,7 +13,7 @@ resolvers,
 GraphQLModule.forRoot()
 ])
 
-There are two ways:
+### There are two ways:
 
 1.  Schema first
 2.  Code First approach.
@@ -29,7 +29,7 @@ GraphQLModule.forRoot({
 autoSchemaFile: true,
 }),
 
-ObjectType: This Describe how our model will looks like.
+### ObjectType: This Describe how our model will looks like.
 
 @objectType()
 export class XYZ{
@@ -37,6 +37,10 @@ export class XYZ{
 name:string;
 }
 
-InputType: Which will allow you to pass object parameter instead on passing as single value each time(Works as single object)
+### InputType:
 
-ArgsType: Which will do the same things.but it will give GraphQL a list as args.
+Which will allow you to pass object parameter instead on passing as single value each time(Works as single object)
+
+### ArgsType:
+
+Which will do the same things.but it will give GraphQL a list as args.
