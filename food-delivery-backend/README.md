@@ -1,4 +1,4 @@
-## User Entity
+## User Entity:
 
 - id
 - createdAt
@@ -8,7 +8,7 @@
 - password
 - role(client|owner|delivery)
 
-## USer CRUD:
+## User CRUD:
 
 - Create Account
 - Log In
